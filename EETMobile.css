@@ -280,9 +280,21 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
  .article_body .post_content {
      margin-bottom: 0px;
  }
+
  
- 
- div > .fb-post  {
+.fb_iframe_widget  {
+     max-width: 100%;
+     display: block;
+     margin: 15 auto 25 auto;
+     height: auto;
+ }
+.fb_iframe_widget_fluid  {
+     max-width: 100%;
+     display: block;
+     margin: 15 auto 25 auto;
+     height: auto;
+ }
+ .fb-post  {
      max-width: 100%;
      display: block;
      margin: 15 auto 25 auto;
